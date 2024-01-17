@@ -116,24 +116,23 @@ const PoweredBy: Component = ({ className }) => {
         Mix Space
       </StyledLink>
       <span className="mx-1">&</span>
-      <FloatPopover
-        isDisabled={!process.env.COMMIT_HASH}
-        type="tooltip"
-        triggerElement={
-          <StyledLink href="https://github.com/innei/Shiro" target="_blank">
-            Shiro
-          </StyledLink>
-        }
-      >
-        {process.env.COMMIT_HASH && (
-          <MLink
+      <StyledLink href="https://github.com/innei/Shiro" target="_blank">
+        Shiro
+      </StyledLink>
+       ({process.env.COMMIT_HASH && (
+          <StyledLink
             href={`https://github.com/innei/Shiro/commit/${process.env.COMMIT_HASH}`}
           >
-            开源版本哈希：{process.env.COMMIT_HASH}
-          </MLink>
-        )}
-      </FloatPopover>
-      .
+          </StyledLink>
+        )})
+      . <Divider />
+      <StyledLink href="https://beian.miit.gov.cn" target="_blank">
+         闽ICP备2021004171号-7
+      </StyledLink>
+      <Divider />
+      <StyledLink href="https://icp.gov.moe/?keyword=20222120" target="_blank">
+        萌ICP备20222120号
+      </StyledLink>
     </span>
   )
 }
@@ -193,7 +192,7 @@ const FooterBottom = async () => {
           </SubscribeTextButton>
         </span>
         <span className="mt-3 block md:mt-0 md:inline">
-          Stay hungry. Stay foolish.
+          人は必ず死ぬが、今はそうではない.
         </span>
       </p>
       <div>
