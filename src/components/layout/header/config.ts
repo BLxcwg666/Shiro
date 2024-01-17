@@ -109,4 +109,8 @@ export const headerMenuConfig: IHeaderMenu[] = [
       },
     ],
   },
+  {
+    title: '开往',
+    path: 'https://www.travellings.cn/go.html',
+  },
 ]
