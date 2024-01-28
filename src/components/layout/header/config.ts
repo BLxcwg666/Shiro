@@ -9,6 +9,7 @@ import {
   FaSolidFeatherAlt,
   FaSolidHistory,
   FaSolidUserFriends,
+  FaSolidTrainSubway,
   IcTwotoneSignpost,
   IonBook,
   MdiFlask,
@@ -104,7 +105,7 @@ export const headerMenuConfig: IHeaderMenu[] = [
       },
       {
         title: '开往',
-        icon: h(RMixPlanet),
+        icon: h(FaSolidTrainSubway),
         path: 'https://www.travellings.cn/go.html',
       },
     ],
