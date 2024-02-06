@@ -127,7 +127,7 @@ const PoweredBy: Component = ({ className }) => {
         )})
       . <Divider />
       <StyledLink href="https://beian.miit.gov.cn" target="_blank">
-         闽ICP备2021004171号-7
+         苏ICP备2023051101号-2
       </StyledLink>
       <Divider />
       <StyledLink href="https://icp.gov.moe/?keyword=20222120" target="_blank">
