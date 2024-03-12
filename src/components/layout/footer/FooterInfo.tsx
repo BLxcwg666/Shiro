@@ -192,7 +192,7 @@ const FooterBottom = async () => {
           </SubscribeTextButton>
         </span>
         <span className="mt-3 block md:mt-0 md:inline">
-          人は必ず死ぬが、今はそうではない.
+          「命に嫌われている」
         </span>
       </p>
       <div>
